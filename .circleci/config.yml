@@ -11,16 +11,8 @@ jobs:
       - run:
           name: Build container
           command: |
-            TAG=1.0.$CIRCLE_BUILD_NUM
-            docker build -t mikeyvxt/noxim:$TAG .
+            docker build -t mikeyvxt/noxim .
       - run:
           name: Default config test
           command: |
-            TAG=1.0.$CIRCLE_BUILD_NUM
-            docker run mikeyvxt/noxim:$TAG -config /opt/noxim/config_examples/default_config.yaml -power /opt/noxim/bin/power.yaml
-      - run:
-          name: Push latest tag to DockerHub
-          command: |
-            TAG=1.0.$CIRCLE_BUILD_NUM
-            docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker push mikeyvxt/noxim:$TAG
+            docker run mikeyvxt/noxim -config /opt/noxim/config_examples/default_config.yaml -power /opt/noxim/bin/power.yaml
