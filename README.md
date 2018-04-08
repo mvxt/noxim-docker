@@ -1,4 +1,6 @@
-# noxim-docker
+[![CircleCI](https://circleci.com/gh/mvxt/noxim-docker/tree/master.svg?style=svg)](https://circleci.com/gh/mvxt/noxim-docker/tree/master)
+
+# Noxim Docker
 
 [Noxim](https://github.com/davidepatti/noxim) is a Network-on-Chip (NoC) simulator created by the University of Catania (Italy). [Visit the page](https://github.com/davidepatti/noxim) for more details on that project. This repository houses the Dockerfile which builds the [Docker Container](https://hub.docker.com/r/mikeyvxt/noxim/).
 
