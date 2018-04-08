@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/mvxt/noxim-docker/tree/master.svg?style=svg)](https://circleci.com/gh/mvxt/noxim-docker/tree/master)
+[![CircleCI](https://circleci.com/gh/mvxt/noxim-docker/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/mvxt/noxim-docker/tree/master)
 
 # Noxim Docker
 
